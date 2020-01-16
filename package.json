@@ -1,0 +1,19 @@
+{
+  "name": "graph-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./src/",
+    "test": "jest ./src/api/books/*.test.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.9.16",
+    "graphql": "^14.5.8",
+    "monk": "^7.1.2"
+  },
+  "devDependencies": {
+    "apollo-server-testing": "^2.9.16",
+    "jest": "^24.9.0"
+  }
+}
