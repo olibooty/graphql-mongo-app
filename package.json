@@ -8,7 +8,7 @@
     "test": "jest ./src/api/books/*.test.js"
   },
   "dependencies": {
-    "apollo-server": "^2.9.16",
+    "apollo-server": "^2.25.3",
     "graphql": "^14.5.8",
     "monk": "^7.1.2"
   },
